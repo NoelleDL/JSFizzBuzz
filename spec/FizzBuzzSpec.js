@@ -6,4 +6,8 @@ describe("FizzBuzz", function() {
   it("returns Buzz when multiple of 5", function() {
     expect(FizzBuzz(10)).toEqual("Buzz");
   });
+
+  it("returns FizzBuzz when multiple of 15", function() {
+    expect(FizzBuzz(30)).toEqual("FizzBuzz");
+  });
 });

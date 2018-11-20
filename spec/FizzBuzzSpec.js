@@ -14,4 +14,9 @@ describe("FizzBuzz", function() {
   it("returns the number when neither a multiple of 3, 5, nor 15", function() {
     expect(FizzBuzz(7)).toEqual(7);
   });
+
+  it("returns an array of all numbers from 1 to 20", function() {
+    result = FizzBuzz(20);
+    expect(result.length).toEqual(20);
+  });
 });

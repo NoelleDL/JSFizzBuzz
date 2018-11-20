@@ -12,7 +12,9 @@ describe("FizzBuzz", function() {
   });
 
   it("returns FizzBuzz when multiple of 15", function() {
-    expect(FizzBuzz(30)).toEqual("FizzBuzz");
+    result = FizzBuzz(30);
+    result = result[29];
+    expect(result).toEqual("FizzBuzz");
   });
 
   it("returns the number when neither a multiple of 3, 5, nor 15", function() {

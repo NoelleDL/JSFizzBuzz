@@ -1,7 +1,7 @@
-function FizzBuzz(number) {
+function FizzBuzz() {
   var numberArray = [];
 
-  for (var count = 1; count <= number; count++) {
+  for (var count = 1; count <= 100; count++) {
     if (count % 15 == 0) {
       numberArray.push("FizzBuzz");
     }

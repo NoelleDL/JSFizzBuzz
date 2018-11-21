@@ -23,8 +23,8 @@ describe("FizzBuzz", function() {
     expect(result).toEqual(7);
   });
 
-  it("returns an array of all numbers from 1 to 20", function() {
-    result = FizzBuzz(20);
-    expect(result.length).toEqual(20);
+  it("returns an array of all numbers from 1 to 100", function() {
+    result = FizzBuzz();
+    expect(result.length).toEqual(100);
   });
 });
